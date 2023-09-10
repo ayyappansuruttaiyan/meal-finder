@@ -1,0 +1,14 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(168, 168, 168);
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
