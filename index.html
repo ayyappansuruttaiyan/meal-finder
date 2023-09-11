@@ -3,21 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/fevicon/android-chrome-192x192.png"
+      type="image/x-icon"
+    />
     <title>Meal Finder</title>
   </head>
-  <body>
+  <body class="bg-image">
     <div class="container">
       <h1>MealsDB</h1>
+      <h5>Discover Your Next Bite with Meal Finder!</h5>
       <div>
         <input type="text" id="search" placeholder="Eg. Chicken" />
         <button id="submit">Search</button>
       </div>
+
+      <div class="loading">
+        <i class="fa fa-circle-o-notch fa-spin"></i> Loading
+      </div>
+      <div class="no-input"></div>
       <div class="search-result-heading"></div>
       <div class="meals-count"></div>
       <!-- <div class="search-result-heading">Dish includes: "Chicken"</div>
       <div class="meals-count">39 Dish(es) found</div> -->
-      <div class="meal">
+      <div class="meals-container">
         <!-- <ul>
           <li>chcken burger</li>
           <li>chick cheese burger</li>
