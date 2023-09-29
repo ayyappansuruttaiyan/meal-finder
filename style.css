@@ -38,6 +38,8 @@ h5::after {
   gap: 1rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Style input and button elements */
